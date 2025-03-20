@@ -1,4 +1,8 @@
 import streamlit as st
+
+st.error("This app is temporarily down. Please check back later.")
+st.stop()
+
 import datetime
 from vault_albader_io import generate_outbound_report, generate_inbound_report
 
